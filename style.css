@@ -1,0 +1,227 @@
+p {
+
+    font-size: 45px;
+    margin: 6px;
+}
+
+label {
+
+    font-size: 34px;
+}
+
+input {
+
+    padding: 12px 16px;
+}
+
+/* button {
+
+    padding: 18px 32px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    letter-spacing: 2px;
+    
+}
+
+button:hover {
+
+    background: #f5f5f5;
+
+} */
+
+li,div{
+
+    font-size: 24px;
+    padding-bottom: 12px;
+}
+
+#countLabel{
+
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#myDiv {
+
+    background-color: #454545;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+#innerDiv {
+
+    background-color: #3283a8;
+    width: 200px;
+    height: 200px;
+    border: 2px dotted #222;
+}
+
+#outerDiv {
+
+    background-color: #a83232;
+    width: 400px;
+    height: 400px;
+}
+
+#myDiv2, #newDiv{
+
+    background-color: #454545;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #222;
+    position: relative;
+}
+#myCanvas {
+
+    border: 1px solid #222; 
+    background-color: #f9f9f9;
+
+}
+
+#myDiv3 {
+
+    background-color: #454545;
+    width: 1000px;
+    height: 1000px;
+}
+
+#timeDisplay {
+
+    font-size: 75px;
+    color: #3283a8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 12px;
+}
+
+
+.timerBtn{
+
+    width: 100px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #222;
+    color: #ffff;
+    font-size: 12px;
+    padding: 12px 24px 24px 24px;
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.timerBtn:hover {
+
+    background-color: #5f5f55;
+
+}
+
+#timerContainer{
+
+    text-align: center;
+    border: 3px solid #222;
+    border-radius: 10px;
+    background-color: #454545;
+    padding: 32px 16px;
+}
+
+#gameDiv {
+
+    border: 12px dotted #222;
+    padding: 32px;
+    text-align: center;
+}
+
+#gameDiv h1:first-child{
+
+    margin-top: 0;
+    color: #039e37;
+
+}
+
+
+#gameDiv h1 {
+
+    margin: 12px 0;
+    font-size: 32px;
+    color: #e61111;
+}
+
+#gameDiv h1:nth-child(3){
+
+    margin-top: 0;
+    color: #1e12c9;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+#gameDiv button {
+
+    margin-top: 12px;
+    display: inline-block;
+    width: 100%;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#ticContainer  {
+
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.cell{
+
+    width: 75px;
+    height: 75px;
+    border: 1px solid #222;
+    box-shadow: 0 0 0 2px;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+#container {
+
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+
+}
+
+
+#sContainer, #popContainer {
+
+    text-align: center;
+}
+
+#gameBoard {
+
+    border: 3px solid;
+}
+
+#scoreText{
+
+    font-family: "Permanent Marker", cursive;
+    font-size: 100px;
+}
+
+#resetBtn {
+
+    font-family: "Permanent Marker", cursive;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
